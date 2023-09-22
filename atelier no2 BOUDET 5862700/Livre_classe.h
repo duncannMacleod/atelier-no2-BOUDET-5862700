@@ -10,7 +10,7 @@ private:
 	bool dispo;
 public:
 	Livre(string titre, string auteur, float dispo=true);
-	bool enregisterL(vector<Livre>& bib);
+	static bool enregisterL(vector<Livre>& bib);
 	bool empruntL(string titre, string auteur, vector < Livre >& bib);
 	bool getDispo(string titre,string auteur, vector < Livre >& bib) const;
 };

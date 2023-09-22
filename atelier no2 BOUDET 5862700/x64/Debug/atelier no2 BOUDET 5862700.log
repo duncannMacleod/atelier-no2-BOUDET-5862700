@@ -1,4 +1,5 @@
 ﻿  Livre_classe.cpp
-C:\Users\dunca\source\repos\atelier no2 BOUDET 5862700\atelier no2 BOUDET 5862700\Livre_classe.cpp(16,20): error C2355: 'this' : ne peut être référencé qu'à l'intérieur de fonctions membres non static ou d'initialiseurs de membres de données non static
   main.cpp
   Génération de code en cours...
+C:\Users\dunca\source\repos\atelier no2 BOUDET 5862700\atelier no2 BOUDET 5862700\Livre_classe.cpp(39): error C4716: 'Livre::empruntL' : doit retourner une valeur
+C:\Users\dunca\source\repos\atelier no2 BOUDET 5862700\atelier no2 BOUDET 5862700\Livre_classe.cpp(34): error C4716: 'Livre::getDispo' : doit retourner une valeur

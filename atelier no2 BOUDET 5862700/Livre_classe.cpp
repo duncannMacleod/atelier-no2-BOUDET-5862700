@@ -11,9 +11,20 @@ Livre::Livre(string titre, string auteur, float dispo) : titre(titre), auteur(au
 
 }   
 
-bool enregisterL(vector<Livre>& bib)
+static bool enregisterL(vector<Livre>& bib)
 {
-    bib.push_back(*this);
+    string titre, auteur;
+    bool dispo;
+    cout << "Entrez le titre : ";
+    cin >> titre;
+    cout << "Entrez l'auteur : ";
+    cin >> auteur;
+    cout << "Le livre est-il disponible (1 pour oui, 0 pour non) : ";
+    do
+        cin >> dispo;
+    while (dispo != 1 && dispo != 0);
+
+    bib.push_back(Livre(titre, auteur, dispo));
     return true;
 }
 

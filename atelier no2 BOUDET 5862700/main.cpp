@@ -18,22 +18,7 @@ int main()
         {
         case 1:
         {
-            string titre, auteur;
-            bool dispo;
-            cout << "Entrez le titre : ";
-            cin >> titre;
-            cout << "Entrez l'auteur : ";
-            cin >> auteur;
-            cout << "Le livre est-il disponible (1 pour oui, 0 pour non) : ";
-            do
-                cin >> dispo;
-            while (dispo!=1 && dispo!=0);
-            
-            Livre nvLivre(titre, auteur, dispo);
-            if (nvLivre.enregisterL(bib))
-                cout << "Livre enregistré avec succès !" << endl;
-            else
-                cout << "Erreur lors de l'enregistrement du livre." << endl;
+            Livre::enregisterL(bib);
             break;
         }
         case 2:
