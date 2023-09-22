@@ -1,5 +1,3 @@
 ﻿  Livre_classe.cpp
-  main.cpp
-  Génération de code en cours...
-C:\Users\dunca\source\repos\atelier no2 BOUDET 5862700\atelier no2 BOUDET 5862700\Livre_classe.cpp(39): error C4716: 'Livre::empruntL' : doit retourner une valeur
-C:\Users\dunca\source\repos\atelier no2 BOUDET 5862700\atelier no2 BOUDET 5862700\Livre_classe.cpp(34): error C4716: 'Livre::getDispo' : doit retourner une valeur
+main.obj : error LNK2019: symbole externe non résolu "public: static bool __cdecl Livre::enregisterL(class std::vector<class Livre,class std::allocator<class Livre> > &)" (?enregisterL@Livre@@SA_NAEAV?$vector@VLivre@@V?$allocator@VLivre@@@std@@@std@@@Z) référencé dans la fonction main
+C:\Users\dunca\source\repos\atelier no2 BOUDET 5862700\x64\Debug\atelier no2 BOUDET 5862700.exe : fatal error LNK1120: 1 externes non résolus

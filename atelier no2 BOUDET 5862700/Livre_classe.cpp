@@ -30,10 +30,10 @@ static bool enregisterL(vector<Livre>& bib)
 
 bool Livre::getDispo(string titre, string auteur, vector < Livre >& bib) const
 {
-    
+    return true;
 }
 
 bool Livre::empruntL(string titre, string auteur, vector < Livre >& bib)
 {
-
+    return true;
 }
